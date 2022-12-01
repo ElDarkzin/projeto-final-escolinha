@@ -22,17 +22,13 @@ body {
 
 h1, h2 {
     font-size: 3rem;
-    color: #ffff;
+    color: rgb(0, 0, 0);
     margin-bottom: 2rem;
     text-align: center;
     line-height: 1.2;
 
 }
 
-h1::before {
-    content: "📧";
-    display: block;
-}
 
 .form {
     width: 100%;
@@ -50,7 +46,7 @@ h1::before {
 }
 
 .form label {
-    color: #fff;
+    color: rgb(0, 0, 0);
     line-height: 1;
     margin-bottom: 0.5rem;
 }
@@ -82,7 +78,7 @@ h1::before {
 .form button {
     display: block;
     padding: 1rem;
-    background: rgb(204, 204, 71);
+    background: rgb(7, 187, 31);
     color: #fff;
     font: inherit;
     text-transform: uppercase;
@@ -96,5 +92,5 @@ h1::before {
 .form button:hover,
 .form button:focus {
     outline: none;
-    background: rgb(230, 230, 64);
+    background: rgb(16, 235, 16);
 }
